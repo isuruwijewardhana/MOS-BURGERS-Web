@@ -213,8 +213,8 @@ footer {
     font-family: 'Arial', sans-serif;
 }
 
-body {
-    background: url('Images/Background Img 1.png') no-repeat center center fixed;
+.body-menu {
+    background: url('Images/Background Img 2.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
     min-height: 100vh;
@@ -222,7 +222,7 @@ body {
     flex-direction: column;
 }
 
-header {
+.header-menu {
     background: transparent;
     padding: 10px 0;
     position: sticky;
@@ -505,6 +505,150 @@ footer.secondary {
     text-align: right;
 }
 
+/* testimonial page css styles  */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
+.body-testimonial {
+    background: url('Images/Background Img 3.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-testimonial {
+    background: transparent;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-left: -60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    margin-left: 250px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 237px;
+}
+
+.nav-icons a {
+    color: white;
+    font-size: 18px;
+}
+
+.main-home {
+    padding: 20px;
+}
+
+.why-try {
+    text-align: center;
+}
+
+.hero-image-testimonial {
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-reviews {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.review {
+    width: 150px;
+    height: 100px;
+    background-color: #ddd;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-images {
+    display: flex;
+    gap: 10px;
+}
+
+.slider-image {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+}
+
+.footer-testimonial {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: transparent;
+    box-shadow: 0 -2px 4px transparent;
+    width: 100%;
+}
+
+.social-links a, .terms a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+}
+    
+.contact-info {
+    flex: 1;
+}
+    
+.terms {
+    flex: 1;
+    text-align: right;
+}
 
