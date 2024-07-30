@@ -505,6 +505,30 @@ footer.secondary {
     text-align: right;
 }
 
+.checkout-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#checkout-button-menu {
+    padding: 5px 5px;
+    border: none;
+    background-color: transparent;
+    color: #218838;
+    font-size: 1em;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #218838;
+    cursor: pointer;
+}
+
+#checkout-button-menu:hover {
+    background-color: #218838;
+    color: #ffffff;
+}
+
+
 /* testimonial page css styles  */
 
 * {
@@ -662,12 +686,12 @@ body.body-checkout {
 }
 
 .header-checkout {
-    background-color: #333;
+    background-color: transparent;
     color: white;
     padding: 10px 0;
 }
 
-.header-container {
+/* .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -703,9 +727,9 @@ body.body-checkout {
     color: white;
     margin-left: 10px;
     text-decoration: none;
-}
+} */
 
-.container {
+.container-checkout {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -769,22 +793,22 @@ body.body-checkout {
     background-color: #218838;
 }
 
-.secondary {
+.secondary-checkout {
     background-color: #333;
     color: white;
     padding: 20px 0;
 }
 
-.secondary .contact-info, .secondary .terms {
+.secondary-checkout .contact-info, .secondary-checkout .terms {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.secondary .social-links {
+.secondary-checkout .social-links {
     text-align: center;
 }
 
-.secondary .social-links a {
+.secondary-checkout .social-links a {
     color: white;
     margin: 0 5px;
     text-decoration: none;

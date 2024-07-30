@@ -50,3 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
         setInterval(showNextNewItem, 3000); 
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const checkoutButtonMenu = document.getElementById('checkout-button-menu');
+
+    checkoutButtonMenu.addEventListener('click', function() {
+        window.location.href = 'checkout.html';
+    });
+});
